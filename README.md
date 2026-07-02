@@ -32,8 +32,8 @@ This repository contains the proof-of-concept implementation and evaluation fram
 ### 2. Automated Latency Evaluation (`/time`)
 ```bash
 cd time
-./time.sh```
-
+./time.sh
+```
 
 ##  Acknowledgments
 The RPA decoding and tracking logic located in `/trace/trace.ino` and `/trace/irk.h` builds upon open-source implementations. Special thanks to **[fryefryefrye](https://github.com/fryefryefrye/Decoding-Random-Bluetooth-Address)** for providing the foundational decoding source code.
