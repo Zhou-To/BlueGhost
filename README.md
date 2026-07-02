@@ -3,13 +3,13 @@
 # BlueGhost & EIB Mitigation Testbed
 This repository contains the proof-of-concept implementation and evaluation framework for BlueGhost, a BLE privacy tracking attack, and EIB, a practical defense mechanism. 
 
-🛠 Prerequisites
+## Prerequisites
 
 * **Hardware:** ESP32 development board 
 * **Software:** Arduino IDE `1.8.19`
 * **Environment:** A Bash terminal is required to run the automated evaluation scripts. 
 
-## 📁 Repository Structure
+## Repository Structure
 
 * `EIB.ino` — The core firmware for the ESP32. It handles the malicious peripheral impersonation and the dynamic toggling of the EIB defense mechanism.
 * `/time/` — Automated performance evaluation scripts and datasets.
@@ -20,7 +20,7 @@ This repository contains the proof-of-concept implementation and evaluation fram
   * `trace.ino`: Sniffer program to capture and decode target BLE advertisements.
   * `irk.h`: Header file for storing and managing the extracted Identity Resolving Keys (IRK).
 
-## 🚀 Usage Guide
+##  Usage Guide
 
 ### 1. Attack & Defense Demonstration (`EIB.ino`)
 1. Open `EIB.ino` in Arduino IDE 1.8.19 and flash it to your ESP32 board.
@@ -32,7 +32,7 @@ This repository contains the proof-of-concept implementation and evaluation fram
 ### 2. Automated Latency Evaluation (`/time`)
 ```bash
 cd time
-./time.sh
+./time.sh```
 
 
 ##  Acknowledgments
