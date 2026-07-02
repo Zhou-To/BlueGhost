@@ -1,6 +1,6 @@
 # BlueGhost
 
-# BlueGhost & EIB Mitigation Testbed
+# BlueGhost & EIB Mitigation 
 This repository contains the proof-of-concept implementation and evaluation framework for BlueGhost, a BLE privacy tracking attack, and EIB, a practical defense mechanism. 
 
 ## Prerequisites
